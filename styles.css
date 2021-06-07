@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-image: url('https://cdna.artstation.com/p/assets/images/images/016/912/928/medium/nikhil-mishra-final-dark-forest.jpg?1553952619');
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	margin-top: 65px;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #bfff9e;
+}
+
+p {
+	line-height: 20px;
+}
+
+h3 + p {
+	line-height: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #3cb400;
+	transition: 0.4s;
+}
+
+a:hover {
+	color: #bfff9e;
+}
+
+div.page-wrapper {
+	padding: 50px;
+	background-color: white;
+	opacity: 85%;
+}
