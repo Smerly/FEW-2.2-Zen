@@ -77,13 +77,44 @@ li {
 	font-size: 1rem;
 }
 
-ul {
-	padding: 0;
-	list-style-type: none;
-}
-
 aside.sidebar {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	display: grid;
+	grid-gap: 2em;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 200px;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: rgba(255, 255, 255, 0.637);
+	border: 1px black solid;
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+li * {
+	margin: 15px;
+}
+
+.design-name {
+	font-size: 1.7em;
+}
+
+.select,
+.resources,
+.archives {
+	font-size: 2.5em;
 }
